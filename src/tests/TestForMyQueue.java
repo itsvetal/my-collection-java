@@ -3,7 +3,6 @@ package tests;
 import collection.MessageForTests;
 import collection.MyLinkedList;
 import collection.MyQueue;
-
 import java.util.NoSuchElementException;
 
 /**

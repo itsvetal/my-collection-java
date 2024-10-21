@@ -3,8 +3,10 @@ package collection;
 import java.util.NoSuchElementException;
 
 /**
- * collection.MyQueue is the interface that defines methods for the queue. This interface works on the
- * principe FIFO - first in first out. The Class implementing
+ * Collection.MyQueue is the interface that defines methods for the queue.
+ * This interface works on the
+ * principe FIFO - first in first out.
+ * The Class implementing
  * this interface must implement all the methods of collection.MyQueue
  *
  * @param <T> this parameter specifies the object type

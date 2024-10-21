@@ -2,8 +2,6 @@ package tests;
 
 import collection.MessageForTests;
 import collection.MyStack;
-import tests.ConstantsForTestingCollection;
-
 import java.util.EmptyStackException;
 import java.util.NoSuchElementException;
 

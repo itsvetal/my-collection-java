@@ -2,7 +2,6 @@ package tests;
 
 import collection.MessageForTests;
 import collection.MyLinkedList;
-
 import java.util.NoSuchElementException;
 
 /**

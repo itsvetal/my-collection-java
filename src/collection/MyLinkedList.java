@@ -4,13 +4,17 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 
 /**
- * collection.MyLinkedList is the parametrized class represents two-linked list. All the elements are
- * the objects of the class Node. Elements have no indexes here. Elements reference the previous
- * element and the next element. That's why if we need to remove or to add an element, we change the
- * links between the elements.
+ * Collection.MyLinkedList is the parametrized class represents a two-linked list.
+ * All the elements are the objects of the class Node.
+ * Elements have no indexes here.
+ * Elements reference the previous element and the next element.
+ * That's why if we need to remove or to add an element,
+ * we change the links between the elements.
  * <p>
- * collection.MyLinkedList has many methods to work with its elements. It works especially effectively with
- * first and last its elements. That's why it is very good work with Stack and Queue, and as it is
+ * collection.MyLinkedList has many methods to work with its elements.
+ * It works especially effectively with
+ * first and last its elements.
+ * That's why it is very good work with Stack and Queue, and as it is
  * the two-linked list, it may be used by Deque
  * <p>
  * If you want, create collection.MyArrayList with primitive types (int, double, char...) you must use
@@ -582,7 +586,7 @@ public class MyLinkedList<T> implements Iterable<T>, MyQueue<T> {
 
     /**
      * This method return new object of the iterator. It's allowing to use the
-     * cycle for-each for elements of collection.MyLinkedList and to use methods hasNext() and
+     * cycle for-each for elements of a collection.MyLinkedList and to use methods hasNext() and
      * next() for iteration through the list
      *
      * @return object of the Iterator

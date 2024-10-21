@@ -3,7 +3,7 @@ package collection;
 import java.util.EmptyStackException;
 
 /**
- * collection.MyStack is the parametrized class represents data structure stack that works on the principe LIFO -
+ * Collection.MyStack is the parametrized class represents data structure stack that works on the principe LIFO -
  * last in first out. That's why you can work only with the elements at the end of the stack. Class
  * collection.MyStack extends class collection.MyArrayList. The end of the list is called the top of the stack. It
  * contains methods that allow to see the item at the top of the stack, add new the item,

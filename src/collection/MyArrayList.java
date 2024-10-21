@@ -4,7 +4,7 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 
 /**
- * collection.MyArrayList is the parametrized class represents an array which can change dynamically.
+ * Collection.MyArrayList is the parametrized class represents an array which can change dynamically.
  * Its contains two constructors: default and with one parameter of capacity. There are several methods
  * by which you can add an object to the collection.MyArrayList, edit, remove, and get using index. You can set the capacity
  * of collection.MyArrayList, find index of an object, check if the list contains an object, clear list
@@ -21,7 +21,7 @@ import java.util.NoSuchElementException;
 public class MyArrayList<T> implements Iterable<T> {
 
     /**
-     * Data array with objects of collection.MyArrayList
+     * Data array with objects of collection MyArrayList
      */
     private Object[] dataArray;
 
@@ -301,7 +301,7 @@ public class MyArrayList<T> implements Iterable<T> {
     /**
      * Return an array with objects of the type T.
      * First call the method trimToSize() and then return an array
-     * with elements of collection.MyArrayList
+     * with elements of a collection MyArrayList
      *
      * @return an array with objects of the type T
      */
@@ -328,7 +328,7 @@ public class MyArrayList<T> implements Iterable<T> {
 
     /**
      * This method return new object of the iterator. It's allowing to use the
-     * cycle for-each for elements of collection.MyArrayList and to use methods hasNext() and
+     * cycle for-each for elements of collection MyArrayList and to use methods hasNext() and
      * next() for iteration through the list
      *
      * @return object of the Iterator

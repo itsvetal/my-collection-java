@@ -4,7 +4,6 @@ import collection.MyArrayList;
 import collection.MyLinkedList;
 import collection.MyQueue;
 import collection.MyStack;
-
 import java.util.Scanner;
 
 /**
