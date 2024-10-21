@@ -1,12 +1,11 @@
 package tests;
 
-import collection.MessageForTests;
 import collection.MyLinkedList;
 import java.util.NoSuchElementException;
 
 /**
  * Class tests.TestForMyLinkedList represents the program for testing the class {@link MyLinkedList collection.MyLinkedList}.
- * It extends class {@link MessageForTests collection.MessageForTests} for displaying logs and implements the
+ * It extends class {@link MessageForTests tests.MessageForTests} for displaying logs and implements the
  * interface {@link ConstantsForTestingCollection Constants}, which contains the constants for testing. Class contains constructor
  * and some methods verifying the addition, receipt, installation, removal elements of the class MyALinkedList
  */

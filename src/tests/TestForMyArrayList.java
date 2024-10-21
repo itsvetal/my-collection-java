@@ -1,11 +1,10 @@
 package tests;
 
-import collection.MessageForTests;
 import collection.MyArrayList;
 
 /**
  * Class tests.TestForMyArrayList represents the program for testing the class {@link MyArrayList collection.MyArrayList}.
- * It extends class {@link MessageForTests collection.MessageForTests} for displaying logs and implements the
+ * It extends class {@link MessageForTests tests.MessageForTests} for displaying logs and implements the
  * interface {@link ConstantsForTestingCollection Constants}, which contains the constants for testing. Class contains constructor
  * and some methods verifying the addition, receipt, installation, removal elements of the class collection.MyArrayList
  */

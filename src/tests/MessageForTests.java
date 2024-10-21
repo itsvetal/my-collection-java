@@ -1,9 +1,11 @@
-package collection;
+package tests;
 
+import collection.MyArrayList;
+import collection.MyLinkedList;
 import tests.ConstantsForTestingCollection;
 
 /**
- * collection.MessageForTests class represents the set of the methods, which displays information about
+ * tests.MessageForTests class represents the set of the methods, which displays information about
  * the tests in the console
  */
 public class MessageForTests implements ConstantsForTestingCollection {

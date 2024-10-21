@@ -1,13 +1,12 @@
 package tests;
 
-import collection.MessageForTests;
 import collection.MyLinkedList;
 import collection.MyQueue;
 import java.util.NoSuchElementException;
 
 /**
  * Class tests.TestForMyQueue represents the program for testing the class {@link MyQueue collection.MyQueue}.
- * It extends class {@link MessageForTests collection.MessageForTests} for displaying logs and implements the
+ * It extends class {@link MessageForTests tests.MessageForTests} for displaying logs and implements the
  * interface {@link ConstantsForTestingCollection Constants}, which contains the constants for testing. Class contains constructor
  * and some methods verifying the addition, receipt and removal elements of the class collection.MyQueue
  */
